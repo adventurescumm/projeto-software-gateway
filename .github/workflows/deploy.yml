@@ -5,9 +5,9 @@ on:
     branches: ["main"]
 
 env:
-  DOCKER_IMAGE: adventurescumm/gateway
+  DOCKER_IMAGE: weirdessen/gateway
   CONTAINER_NAME: gateway
-  DOCKER_USER: adventurescumm
+  DOCKER_USER: weirdessen
 
 jobs:
   build:
